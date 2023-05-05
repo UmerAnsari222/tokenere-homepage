@@ -20,15 +20,6 @@
   text-align: left;
 }
 
-/* .vector-icon {
-  width: calc(100% - 290px);
-  top: 0.76px;
-  right: 290px;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  height: 18px;
-} */
 .search-for-products,
 .vector-parent {
   top: 0;
@@ -72,23 +63,6 @@
   border: 2px solid var(--color-goldenrod);
   box-sizing: border-box;
 }
-/* .group-child,
-.group-item,
-.rectangle-parent {
-  top: 0;
-  right: 0;
-  height: 40px;
-} */
-/* .group-item {
-  width: calc(100% - 570.01px);
-  left: 570.01px;
-  border-radius: 0 var(--br-8xs) var(--br-8xs) 0;
-  background-color: var(--color-goldenrod);
-} */
-/* .rectangle-parent {
-  width: 100%;
-  left: 0;
-} */
 
 .search-nav {
   height: 40px;
@@ -99,12 +73,6 @@
   width: 680px;
   border-radius: 4px;
 }
-
-/* .my-account {
-  position: relative;
-  letter-spacing: -0.03em;
-  font-weight: 500;
-} */
 
 .vector-group {
   display: flex;
@@ -124,24 +92,7 @@ a.vector-group:hover {
   color: var(--color-goldenrod);
   text-decoration: none;
 }
-/* .frame-child,
-.frame-item,
-.vector-icon2 {
-  position: relative;
-  width: 22.24px;
-  height: 20px;
-  flex-shrink: 0;
-} */
-/* .frame-child,
-.frame-item {
-  width: 21.1px;
-  height: 22.1px;
-} */
 
-/* .frame-item {
-  width: 21px;
-  height: 20px;
-} */
 .frame-parent {
   display: flex;
   flex-direction: row;
@@ -160,49 +111,6 @@ a.vector-group:hover {
 .group-icon img {
   width: 100%;
   height: 100%;
-}
-.let-solve-your {
-  font-weight: 800;
-  font-size: 48px;
-  text-align: center;
-}
-.buy-sell {
-  margin: 0;
-  font-size: 48px;
-}
-.buy-sell-container {
-  font-weight: 800;
-}
-button.start {
-  background-color: var(--color-goldenrod);
-  width: 331px;
-  height: 131px;
-  border: none;
-  font-weight: 800;
-  color: var(--color-black);
-  font-size: 48px;
-  margin-top: 20px;
-}
-
-.desktop-3 {
-  /* display: flex; */
-  background-color: var(--color-gray-100);
-  width: 100%;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-29xl);
-  color: var(--color-white);
-  font-family: var(--font-inter);
-  padding-top: 30px;
-}
-
-.desktop-3-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 15px;
-  padding: 0 30px;
-  margin-top: 30px;
 }
 
 .footer {
@@ -281,4 +189,70 @@ button.start {
 }
 .social-media li {
   list-style: none;
+}
+
+.NftComingSoon-section {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  color: var(--color-white);
+  width: 90%;
+  margin: 0 auto;
+  gap: 20px;
+  font-family: var(--web-body-text-big);
+  padding: 30px 0;
+  padding-bottom: 200px;
+}
+
+.NftComingSoon-sidebar {
+  border: 2px solid var(--color-goldenrod);
+  border-radius: 8px;
+}
+.NftComingSoon-sidebar ul li .vector-group {
+  justify-content: start;
+}
+.NftComingSoon-sidebar a {
+  list-style: none;
+  margin: 20px 0;
+  text-align: start;
+}
+.NftComingSoon-sidebar a.vector-group .my-text {
+  font-size: 24px;
+  line-height: 24px;
+}
+.NftComingSoon-sidebar a.vector-group {
+  justify-content: start;
+  padding: 5px 20px;
+}
+
+.center-content-container-nft {
+  margin-left: 30px;
+}
+
+.center-content-container-nft div {
+  width: 595px;
+  height: 502px;
+  padding-right: 20px;
+  /* margin: 0 auto; */
+}
+
+.center-content-container-nft div img {
+  width: 100%;
+  height: 100%;
+}
+
+.center-content-container-nft div h2 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin: 10px 0;
+  line-height: 75.07px;
+}
+
+.center-content-container-nft div h3 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #f5c249;
+  text-transform: capitalize;
+  margin: 0;
 }
